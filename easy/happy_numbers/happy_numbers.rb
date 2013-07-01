@@ -10,6 +10,13 @@ def get_digits(number)
 end
 
 def happy_numbers(input)
+  #check that number is not in the hash, if there is - number is not happy
+  #save number to the hash
+  #get number's digits
+  #sum digits
+  #check for happiness, return 1 if number is happy
+  #repeat
+
   checkedNumbers = {}
   loop do
     return 0 if checkedNumbers.has_key?(input)
